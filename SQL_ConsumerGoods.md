@@ -1,17 +1,18 @@
-## This can be your internal website page / project page
+## Clothing Store Database & Stats: An analysis using SQL
 
-**Project description:** Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+**Project description:** In this case study, I am hired as a marketing analyst to interpret the research about a company’s consumers and their buying habits.
 
-### 1. Suggest hypotheses about the causes of observed phenomena
+### 1. Requests
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+- what is the xxxxx?
+- how much xx is in the month of xxx?
 
 ```SQL
 SELECT *
 FROM bit_db.customers;
 ```
 
-### 2. Assess assumptions on which statistical inference will be based
+### 2. SQL Code
 
 ```javascript
 if (isAwesome){
@@ -19,7 +20,7 @@ if (isAwesome){
 }
 ```
 
-### 3. Support the selection of appropriate statistical tools and techniques
+### 3. Key Takeaways
 
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
