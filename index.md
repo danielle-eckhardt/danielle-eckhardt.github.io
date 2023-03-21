@@ -4,7 +4,7 @@
 
 ### SQL Projects
 
-- [Clothing Store Statistics](https://github.com/daniellemarshall/SQL/blob/b74e50d02977bb4f89101c8842cffe6366e71da7/Clothing%20Store%20Database%20&%20Stats)
+- [Clothing Store Statistics](https://github.com/daniellemarshall/daniellemarshall.github.io/blob/5bde5e2459ebe62672484fc1f54ba2eeee1d6ced/sample_page.md)
 - [Project 2 Title](http://example.com/)
 - [Project 3 Title](http://example.com/)
 - [Project 4 Title](http://example.com/)
