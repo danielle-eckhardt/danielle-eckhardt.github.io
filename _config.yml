@@ -1,15 +1,17 @@
 title: Danielle Marshall # your name (or website title) here
+
 logo: "/images/LinkedInPhoto.jpg?raw=true" # your photo (or logo) here
+
 description: > # your text below (remove <br> elements if you don't need line breaks)
-  Welcome to my portfolio! Here you will find SQL projects, Excel projects, and visualization projects using PowerBI and Tableau. 
-  If you have any questions feel free to reach out!
   <br><br>
  M.S Environmental Science, Texas A&M University-Corpus Christi 
  B.S Biology, Point Loma Nazarene University
  <br><br>
   Contact:
   - marshalldanielleann@gmail.com
-- [LinkedIn Profile](http://linkedin.com/danielle-a-marshall)
+  - [My LinkedIn Profile](http://linkedin.com/danielle-a-marshall)
+  - [My PowerBI Page](link)
+  - [My Tableau Public](link)
   
 theme: jekyll-theme-minimal
 
