@@ -12,12 +12,12 @@ Database name: BIT_DB <br>
 <br>
 Tables:
 <br>
-JanSales (orderID INTEGER PRIMARY KEY, Product TEXT, Quantity INTEGER, price  DECIMAL, orderdate TEXT(mm-dd-yy hh:mm), location TEXT) <br>
-FebSales (orderID INTEGER PRIMARY KEY, Product TEXT, Quantity INTEGER, price  DECIMAL, orderdate TEXT(mm-dd-yy hh:mm), location TEXT) <br>
-MarSales (orderID INTEGER PRIMARY KEY, Product TEXT, Quantity INTEGER, price  DECIMAL, orderdate TEXT(mm-dd-yy hh:mm), location TEXT) <br>
-AprSales (orderID INTEGER PRIMARY KEY, Product TEXT, Quantity INTEGER, price  DECIMAL, orderdate TEXT(mm-dd-yy hh:mm), location TEXT) <br>
-MaySales (orderID INTEGER PRIMARY KEY, Product TEXT, Quantity INTEGER, price  DECIMAL, orderdate TEXT(mm-dd-yy hh:mm), location TEXT) <br>
-customers (order_id INTEGER PRIMARY KEY, acctnum INTEGER)
+**JanSales** (orderID INTEGER PRIMARY KEY, Product TEXT, Quantity INTEGER, price  DECIMAL, orderdate TEXT(mm-dd-yy hh:mm), location TEXT) <br>
+**FebSales** (orderID INTEGER PRIMARY KEY, Product TEXT, Quantity INTEGER, price  DECIMAL, orderdate TEXT(mm-dd-yy hh:mm), location TEXT) <br>
+**MarSales** (orderID INTEGER PRIMARY KEY, Product TEXT, Quantity INTEGER, price  DECIMAL, orderdate TEXT(mm-dd-yy hh:mm), location TEXT) <br>
+**AprSales** (orderID INTEGER PRIMARY KEY, Product TEXT, Quantity INTEGER, price  DECIMAL, orderdate TEXT(mm-dd-yy hh:mm), location TEXT) <br>
+**MaySales** (orderID INTEGER PRIMARY KEY, Product TEXT, Quantity INTEGER, price  DECIMAL, orderdate TEXT(mm-dd-yy hh:mm), location TEXT) <br>
+**customers** (order_id INTEGER PRIMARY KEY, acctnum INTEGER)
 
 ### Analysis
 
