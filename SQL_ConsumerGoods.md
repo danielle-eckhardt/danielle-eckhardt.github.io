@@ -1,9 +1,9 @@
-## Clothing Store Database & Stats: An analysis using SQL
+## Consumer Goods: An analysis using SQL
 
 **Project description:** In this case study, I am hired as a marketing analyst to interpret the research about a company’s consumers and their buying habits.
 
 ### Data Set
-This data set was analyzed in SQLiteStudio 3.4.3 and came from the [BreakIntoTech Data Analytics Course](https://howtobreakintotech.com/data-analytics-certificate-program/). 
+  This data set was analyzed in SQLiteStudio 3.4.3 and came from the [BreakIntoTech Data Analytics Course](https://howtobreakintotech.com/data-analytics-certificate-program/). 
 
 [Database File](https://www.dropbox.com/s/cvsasmtr8syq2c2/BIT_DB?dl=0)
 
