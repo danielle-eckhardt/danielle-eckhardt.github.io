@@ -1,13 +1,11 @@
-title: Danielle Marshall # your name (or website title) here
-logo: "/images/LinkedInPhoto.jpg?raw=true" # your photo (or logo) here
+title: John Doe # your name (or website title) here
+logo: "/images/logo.png?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
-  Learn about my projects using SQL, PowerBI, and Tableau!
+  First description 
   <br><br>
- M.S Environmental Science, Texas A&M University-Corpus Christi
- B.S Biology, Point Loma Nazarene University
- <br><br>
-  Contact:marshalldanielleann@gmail.com
-<a href="http://linkedin.com/danielle-a-marshall">View My LinkedIn Profile</a>
+  Second description 
+  <br><br>
+  <a href="https://www.linkedin.com/in/example/">View My LinkedIn Profile</a> 
   
 theme: jekyll-theme-minimal
 google_analytics: UA-000000-0 # your Google Analytics tracking ID here
