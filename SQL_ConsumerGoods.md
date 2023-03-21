@@ -2,25 +2,34 @@
 
 **Project description:** In this case study, I am hired as a marketing analyst to interpret the research about a company’s consumers and their buying habits.
 
-### 1. Requests
+### Data Set
+This data set was analyzed in SQLiteStudio 3.4.3 and came from the [BreakIntoTech Data Analytics Course](https://howtobreakintotech.com/data-analytics-certificate-program/). 
 
-- what is the xxxxx?
-- how much xx is in the month of xxx?
+[Database File](https://www.dropbox.com/s/cvsasmtr8syq2c2/BIT_DB?dl=0)
+
+### Analysis
+
+- How many orders were placed in January?
 
 ```SQL
-SELECT *
-FROM bit_db.customers;
+SELECT count(*)
+FROM bit_db.jansales
+WHERE length(orderID) = 6 
+AND orderID <> 'Order ID'; 
 ```
+Here, you can see in my code there was a bit of data cleaning that needed to be included to avoid mis-calculated results. There are several entries were the 'orderID' is not a proper 6 digit code and they needed to be filtered out in the calculation.
 
-### 2. SQL Code
+There are 9681 orders placed in January.
 
-```javascript
+- 
+
+```SQL
 if (isAwesome){
   return true
 }
 ```
 
-### 3. Key Takeaways
+### Key Takeaways
 
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
