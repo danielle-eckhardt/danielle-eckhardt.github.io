@@ -14,3 +14,6 @@ description: > # your text below (remove <br> elements if you don't need line br
   - <a href="https://www.linkedin.com/in/danielle-a-marshall">My LinkedIn Profile</a> 
   
 theme: jekyll-theme-minimal
+
+github:
+  is_project_page: false
