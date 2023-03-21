@@ -4,7 +4,7 @@
 
 ### SQL Projects
 
-- [Clothing Store Statistics](/sample_page)
+- [Consumer Goods](/SQL_ConsumerGoods)
 - [Project 2 Title](http://example.com/)
 - [Project 3 Title](http://example.com/)
 - [Project 4 Title](http://example.com/)
