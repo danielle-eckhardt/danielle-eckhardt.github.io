@@ -20,6 +20,7 @@ This study examined how hydrology affects nutrient budgets in Texas estuaries us
 
 Please note, there was a lot of SAS 'programs' or queries that went into the ETL cleaning process that is not included on here before analyses were ran.
 
+![image](https://user-images.githubusercontent.com/123992539/227018536-e0a5b7f7-ad3e-45d3-953b-e299b6e1d9fd.png)
 
 ![image](https://user-images.githubusercontent.com/123992539/227017493-a353989b-721c-49ba-a922-7f2a78236396.png)
 
