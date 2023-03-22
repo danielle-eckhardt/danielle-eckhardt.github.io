@@ -9,7 +9,7 @@ This study examined how hydrology affects nutrient budgets in Texas estuaries us
 
 1. Texas Water Development Board (TWDB) <br>
 ```Contains all the water data including gaged flows, ungaged flows, modeled flows, diversions, and evaporation rates from 1940-2020```
-2. National Oceanic & Atmospheric Administration (NOAA) Global Historical Climatology Network (GHCN) database
+2. National Oceanic & Atmospheric Administration (NOAA) Global Historical Climatology Network (GHCN) database <br>
 ```Contains all the precipitation data at weather stations nearest to each estuary from 1940-2020```
 3. Texas Parks & Wildlife Department (TPWD) <br>
 ```Contains all the salinity data in each bay system and their adjacent gulf stations offshore from 1977-2020```
