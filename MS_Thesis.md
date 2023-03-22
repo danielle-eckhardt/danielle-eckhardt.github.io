@@ -19,3 +19,19 @@ This study examined how hydrology affects nutrient budgets in Texas estuaries us
 ### Key Findings
 
 Please note, there was a lot of SAS 'programs' or queries that went into the ETL cleaning process that is not included on here before analyses were ran.
+
+
+![image](https://user-images.githubusercontent.com/123992539/227017493-a353989b-721c-49ba-a922-7f2a78236396.png)
+
+SAS Code:
+```SAS
+proc sgpanel data=bay_dtrans(where=(nox>0 and nox<201));
+panelby EN / columns=4 novarname uniscale=all;
+scatter x=Salinity y=Nox;
+reg x=Salinity y=nox / lineattrs=(color=red thickness=2) nomarkers;
+format EN en.;
+rowaxis label='NO2 + NO3 (mmol/m³/d)';
+colaxis label='Salinity (psu/d)';
+run; quit;
+```
+
