@@ -3,7 +3,7 @@ The focus of this project was to conduct a meta-analysis on water quality over a
 
 
 ### Summary
-
+This study examined how hydrology affects nutrient budgets in Texas estuaries using biogeochemical budget modeling based on the Land Ocean Interactions in the Coastal Zone ([LOICZ](https://www.sciencedirect.com/science/article/pii/S2213305416300054)) guidelines. Results showed that precipitation is a driving factor in water budgets and hydrology is strong driver of nutrient concentrations. However, nutrient levels were elevated in two estuaries due to other external factors such as urbanization and agricultural runoff. The Trinity-San Jacinto Estuary had higher phosphorus levels, while the Upper Laguna Madre Estuary had higher nitrogen levels. These findings suggest that changes in hydrology and environmental conditions can impact estuarine nutrient dynamics and affect biological productivity and water quality.
 
 ### Data Sources
 
@@ -18,4 +18,4 @@ The focus of this project was to conduct a meta-analysis on water quality over a
 
 ### Key Findings
 
-Please note, there was a lot of SAS programs that went into the ETL process that is not included on here before analyses.
+Please note, there was a lot of SAS 'programs' or queries that went into the ETL cleaning process that is not included on here before analyses were ran.
