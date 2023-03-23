@@ -113,9 +113,9 @@ proc sgplot data=bay_npmeans;
   format EN en.;
   inset "A" / noborder position=topleft;
   run; quit;
-  ```
-  Repeated code with the other nutrient variables. <br>
-  
- ### Conclusion ###
+```
+Repeated code with the other nutrient variables. <br>
+
+### Conclusion ###
 
 This study highlights the relationship between hydrology and water, salt, and nutrient dynamics in Texas estuaries. While precipitation drives inflow and subsequently salinity and nutrient budgets, other factors such as human activities and biological processes also influence nutrient dynamics. Different estuaries are exposed to various factors that affect nutrient sources and sinks, and the impact of these factors can vary. Physical, chemical, and biological processes, such as river discharge and phytoplankton activity, also play a role. Human activities, such as damming and wastewater treatment, can strongly affect nutrient dynamics. The high levels of phosphorus in the Trinity-San Jacinto Estuary can be attributed to the surrounding urbanization and high population density in Harris, Chambers, Galveston, and Brazoria County. The use of detergents, urine, and fecal matter containing phosphorus in this area is released through the wastewater treatment plants, leading to a substantial amount of phosphorus being introduced into the estuary. Concentration of multiple wastewater treatment plants in one area can further exacerbate this issue, resulting in significant effects on estuarine processes. Like the Trinity-San Jacinto Estuary, the Upper Laguna Madre Estuary's nutrient levels are not solely influenced by hydrology. Its unique geography and habitats, such as tidal mudflats and seagrass beds, create an environment favorable to organic nitrogen proliferation, resulting in the highest TKN concentrations in Texas estuaries. Additionally, this estuary is mainly fed by sewage discharge and agricultural runoff.
