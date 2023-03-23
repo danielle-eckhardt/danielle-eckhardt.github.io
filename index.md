@@ -7,8 +7,8 @@
 
 ### SQL Projects
 
-- [Consumer Goods](/Consumer Goods Analysis)
-- [Project 2 Title](http://example.com/)
+- [Consumer Goods Analysis](/Consumer Goods Analysis)
+- [Music Store Insights](/Music Store Analysis)
 
 
 ---
