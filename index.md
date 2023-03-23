@@ -1,13 +1,13 @@
 ## Welcome To My Data Portfolio
 
 ### Master's Thesis Project
-[Nitrogen & Phosphorus Budgets in Estuaries Along the Texas Coast](/MS_Thesis)
+[Nitrogen and Phosphorus Budgets in Estuaries of the Texas Coast](/MS_Thesis)
 
 ---
 
 ### SQL Projects
 
-- [Consumer Goods](/SQL_ConsumerGoods)
+- [Consumer Goods](/Consumer Goods Analysis)
 - [Project 2 Title](http://example.com/)
 - [Project 3 Title](http://example.com/)
 - [Project 4 Title](http://example.com/)
