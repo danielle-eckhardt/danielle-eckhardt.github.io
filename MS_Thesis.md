@@ -1,4 +1,4 @@
-## Nitrogen and Phosphorus Budgets in Estuaries Along the Texas Coast
+## Nitrogen and Phosphorus Budgets in Estuaries of the Texas Coast 
 The focus of this project was to conduct a meta-analysis on water quality over an extended period of time using **SAS 9.4**. This project is currently undergoing preparations to be published as a chapter in the new environmental report on freshwater inflow to Texas estuaries. This document is a very condensed version of the actual project.
 
 
