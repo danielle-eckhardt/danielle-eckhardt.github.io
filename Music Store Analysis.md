@@ -1,7 +1,7 @@
 ## Music Store Sales: An analysis using SQL
 
 ### Project Description ### 
-In this case study, I am hired by a music store to provide insights on their employees peformance, customer characteristics, and more about their invoices.
+In this case study, I am tasked with analyzing and providing actionable insights to a music store on various aspects of their business operations. Specifically, my goal is to dive deep into their employee performance, customer demographics and behavior, as well as invoice and music characteristics, to help the store make data-driven decisions to optimize their business and increase profitability.
 
 ### Data Set ###
 This data set came from the [SQLite Sample Database](https://www.sqlitetutorial.net/sqlite-sample-database/#:~:text=The%20name%20of%20the%20file%20is%20chinook.db%20If,download%20a%20free%20zip%20software%20such%20as%207-zip.). This data was analyzed on **SQLiteStudio (3.4.3)**.
@@ -12,7 +12,7 @@ Schema Diagram:
 
 
 ### Insights ###
-1. Show Customers (their full names, customer ID, and country) who are not in the US. (Hint: != or <> can be used to say "is not equal to").
+1. Show Customers (their full names, customer ID, and country) who are not in the US.
 ```SQL
 SELECT customerID, firstname, lastname, country
 FROM chinook.customers
@@ -27,7 +27,6 @@ WHERE Country = 'Brazil';
 ```
 
 3. Find the Invoices of customers who are from Brazil.
-The resulting table should show the customer's full name, Invoice ID, Date of the invoice, and billing country.
 ```SQL
 SELECT c.customerID, c.firstname, c.lastname, c.country, i.invoiceID, i.InvoiceDate, i.BillingCountry
 FROM chinook.customers c
@@ -50,7 +49,6 @@ FROM chinook.invoices;
 ```
 
 6. Provide a query that shows the invoices associated with each sales agent. 
-The resulting table should include the Sales Agent's full name.
 ```SQL
 SELECT i.invoiceID, (e.FirstName || ' ' || e.LastName) as SalesAgentName
 FROM chinook.invoices i
@@ -82,7 +80,7 @@ WHERE invoicedate BETWEEN '2009-01-01' AND '2009-12-31';
 
 9. What are the total sales for 2009?
 ```SQL
-SELECT sum(total)
+SELECT sum(total) as Total_sales_2009
 FROM chinook.invoices 
 WHERE invoicedate BETWEEN '2009-01-01' AND '2009-12-31';
 ```
@@ -90,7 +88,7 @@ WHERE invoicedate BETWEEN '2009-01-01' AND '2009-12-31';
 
 10. Write a query that includes the purchased track name with each invoice line ID.
 ```SQL
-SELECT t.Name, i.InvoiceLineID
+SELECT t.Name as TrackName, i.InvoiceLineID
 FROM chinook.tracks t
 JOIN chinook.invoice_items i
 ON t.TrackId = i.TrackId;
@@ -98,7 +96,7 @@ ON t.TrackId = i.TrackId;
 
 11. Write a query that includes the purchased track name AND artist name with each invoice line ID.
 ```SQL
-SELECT i.InvoiceLineID, t.Name, a.ArtistId
+SELECT i.InvoiceLineID, t.Name as TrackName, a.Name as ArtistName
 FROM chinook.tracks t
 JOIN chinook.invoice_items i
 ON t.TrackId = i.TrackId
@@ -124,7 +122,7 @@ ON t.GenreId = g.GenreId;
 
 13. Show the total sales made by each sales agent.
 ```SQL
-SELECT e.LastName, e.FirstName, sum(i.total)
+SELECT e.LastName, e.FirstName, sum(i.total) as TotalSales
 FROM chinook.employees e
 JOIN chinook.customers c
 ON e.employeeID = c.supportrepid
@@ -145,6 +143,6 @@ JOIN chinook.invoices i
 ON i.customerID = c.customerID
 WHERE e. Title LIKE '%Sales%Agent%'
 GROUP BY e.LastName, e.FirstName
-ORDER BY '2009_sales'
+ORDER BY 2009_sales
 LIMIT 1;
 ```
