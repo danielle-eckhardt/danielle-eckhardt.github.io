@@ -54,6 +54,26 @@ FROM
 WHERE 
     fiscal_year IN (2020, 2021);
 ```
+<table>
+  <tr>
+    <th>var</th>
+    <th>let</th>
+    <th>const</th>
+  </tr>
+  <tr>
+    <td>
+      Declares a variable, optionally initializing it to a value.
+    </td>
+    <td>
+      Declares a block-scoped, local variable, optionally initializing it to a value.
+    </td>
+    <td>
+      Declares a block-scoped, read-only named constant.
+    </td>
+  </tr>
+  ...
+</table>
+
 percentage_chg unique_products_2020 unique_products_2021 <br>
 59.7793     363523     608108    <br>
 
