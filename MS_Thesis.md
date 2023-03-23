@@ -16,23 +16,37 @@ This study examined how hydrology affects nutrient budgets in Texas estuaries us
 4. Texas Commission of Environmental Quality (TCEQ) <br>
 ```Contains all of the nutrient data in each bay system and their adjacent gulf stations offshore from 1969-2020```
 
+### Data Cleaning
+
+Please note that there were numerous SAS programs involved in the data cleaning process (i.e., extract, transform, load) prior to conducting analyses. However, these are not included here in order to streamline and condense the presentation of my work.
+Summary of the cleaning process:
+- Imported all raw data from four external organizations into SAS, including files in txt and csv formats.
+- Removed any irrelevant columns from the dataset.
+- Conducted a normality test on all variables to assess their distribution using the proc univariate command, and generated plots to visualize the results.
+- For variables that showed evidence of non-normality, a natural log transformation and then detransformation was performed before conducting further analyses.
+- Standardized the units of water, salt, and nutrient values to cubic meters per day to facilitate comparison.
+- Organized the data by grouping first by station and then by estuary.
+
 ### Key Findings
 
-Please note, there was a lot of SAS 'programs' or queries that went into the ETL cleaning process that is not included on here before analyses were ran.
+#### Water
 
-![image](https://user-images.githubusercontent.com/123992539/227018536-e0a5b7f7-ad3e-45d3-953b-e299b6e1d9fd.png)
+The Sabine-Neches Estuary (SN) had the highest average annual precipitation, while the Upper Laguna Madre Estuary (ULM) had the lowest, indicating a northeast to southwest climate gradient along the Texas coast. <br>
+![image](https://user-images.githubusercontent.com/123992539/227271676-d62a8392-1140-4074-a5fe-671170fe5f70.png) <br>
 
-![image](https://user-images.githubusercontent.com/123992539/227017493-a353989b-721c-49ba-a922-7f2a78236396.png)
 
+A correlation analysis showed a significant monotonic relationship (p < 0.0001) between precipitation and freshwater inflow balance, with increasing precipitation corresponding to an increase in freshwater inflow balance. <br>
+![image](https://user-images.githubusercontent.com/123992539/227273055-ac6cc81d-6353-4ed9-a9c6-3a128c49817d.png) <br>
 SAS Code:
 ```SAS
-proc sgpanel data=bay_dtrans(where=(nox>0 and nox<201));
-panelby EN / columns=4 novarname uniscale=all;
-scatter x=Salinity y=Nox;
-reg x=Salinity y=nox / lineattrs=(color=red thickness=2) nomarkers;
-format EN en.;
-rowaxis label='NO2 + NO3 (mmol/m³/d)';
-colaxis label='Salinity (psu/d)';
-run; quit;
+proc sort data=water (where=(Estuary='SN')) out=sn_water; by Estuary; run;
+title;ods html close; ods html; 
+proc corr data=sn_water spearman PLOTS=SCATTER(NVAR=all);
+var VB pax;
+run;
 ```
+SAS code was repeated 7 more times for the remaining estuaries. <br>
 
+
+SAS Code:
+```SA
