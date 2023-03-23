@@ -7,7 +7,7 @@ In this case study, I am tasked with analyzing and providing actionable insights
 This data set came from the [SQLite Sample Database](https://www.sqlitetutorial.net/sqlite-sample-database/#:~:text=The%20name%20of%20the%20file%20is%20chinook.db%20If,download%20a%20free%20zip%20software%20such%20as%207-zip.). This data was analyzed on **SQLiteStudio (3.4.3)**.
 
 ### Data Structure ###
-Schema Diagram:
+[Schema Diagram](https://www.sqlitetutorial.net/wp-content/uploads/2018/03/sqlite-sample-database-diagram.pdf):
 ![image](https://user-images.githubusercontent.com/123992539/227369420-81337f1b-b5c1-4735-8a61-9bf4e0abd4dc.png)
 
 
