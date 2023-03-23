@@ -101,7 +101,6 @@ proc factor data=wx method=principal rotate=varimax nfactors=3
 	 run;
 ```
 
-
 A graph of de-transformed daily nutrient averages and their standard errors was created for each estuary in Texas. The high DIP and TP concentrations in the Trinity-San Jacinto Estuary could explain its position on the PC2 axis. Additionally, the graph shows that the Upper Laguna Madre has higher TKN levels compared to other estuaries in Texas. <br>
 ![image](https://user-images.githubusercontent.com/123992539/227279572-c4d360f3-807e-4459-8700-3c252e437d70.png) <br>
 SAS Code:
@@ -114,7 +113,7 @@ proc sgplot data=bay_npmeans;
   inset "A" / noborder position=topleft;
   run; quit;
 ```
-Repeated code with the other nutrient variables. <br>
+Repeated code with the other nutrient variables.
 
 ### Conclusion ###
 
