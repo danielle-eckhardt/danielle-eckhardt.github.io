@@ -18,15 +18,10 @@ SELECT customerID, firstname, lastname, country
 FROM chinook.customers
 WHERE Country <> 'USA';
 ```
+![image](https://user-images.githubusercontent.com/123992539/227374835-c242f79c-7d49-4217-abe8-3169b418bd9a.png)
 
-2. Show only the Customers from Brazil.
-```SQL
-SELECT customerID, firstname, lastname, country
-FROM chinook.customers
-WHERE Country = 'Brazil';
-```
 
-3. Find the Invoices of customers who are from Brazil.
+2. Find the Invoices of customers who are from Brazil.
 ```SQL
 SELECT c.customerID, c.firstname, c.lastname, c.country, i.invoiceID, i.InvoiceDate, i.BillingCountry
 FROM chinook.customers c
@@ -34,33 +29,25 @@ INNER JOIN chinook.invoices i
 ON c.customerID = i.customerID
 WHERE Country = 'Brazil';
 ```
+![image](https://user-images.githubusercontent.com/123992539/227375019-efd79a64-252a-4960-b47f-ffa7c6f2cae4.png)
 
-4. Show the Employees who are Sales Agents.
+3. Show the Employees who are Sales Agents.
 ```SQL
 SELECT employeeID, firstname, lastname, title
 FROM chinook.employees
 WHERE title LIKE '%Sales%Agent%';
 ```
+![image](https://user-images.githubusercontent.com/123992539/227375079-50117ca1-a22a-47db-94ba-e062ac4ea4dd.png)
 
-5. Find a unique/distinct list of billing countries from the Invoice table.
+4. Find a unique list of billing countries from the Invoice table.
 ```SQL
 SELECT DISTINCT billingcountry
 FROM chinook.invoices;
 ```
-
-6. Provide a query that shows the invoices associated with each sales agent. 
-```SQL
-SELECT i.invoiceID, (e.FirstName || ' ' || e.LastName) as SalesAgentName
-FROM chinook.invoices i
-JOIN chinook.customers c
-ON i.CustomerID = c.CustomerId
-JOIN chinook.employees e
-ON e.EmployeeId = c.SupportRepId
-WHERE e.title LIKE '%Sales%Agent%';
-```
+![image](https://user-images.githubusercontent.com/123992539/227375164-e234f40e-dcc4-47f3-adbe-cf06e66a8ac7.png)
 
 
-7. Show the Invoice Total, Customer name, Country, and Sales Agent name for all invoices and customers.
+5. Show the Invoice Total, Customer name, Country, and Sales Agent name for all invoices and customers.
 ```SQL
 SELECT i.total as InvoiceTotal, c.FirstName || ' ' || c.LastName as CustomerName, c.Country, e.FirstName || ' ' || e.LastName as SalesAgentName
 FROM chinook.invoices i
@@ -70,31 +57,17 @@ JOIN chinook.employees e
 ON e.EmployeeId = c.SupportRepId
 WHERE e.Title LIKE '%Sales%Agent%';
 ```
+![image](https://user-images.githubusercontent.com/123992539/227375410-68bd03ff-b6ff-4278-9359-8ce2908af1a4.png)
 
-8. How many Invoices were there in 2009?
+6. How many Invoices and what are the total sales in 2009?
 ```SQL
-SELECT count(invoiceID)
+SELECT count(invoiceID) as Total_Invoices_2009, sum(total) as Total_sales_2009
 FROM chinook.invoices 
 WHERE invoicedate BETWEEN '2009-01-01' AND '2009-12-31';
 ```
+![image](https://user-images.githubusercontent.com/123992539/227375669-fbcc939b-8a2c-4a8f-9e3c-733e77a6eacb.png)
 
-9. What are the total sales for 2009?
-```SQL
-SELECT sum(total) as Total_sales_2009
-FROM chinook.invoices 
-WHERE invoicedate BETWEEN '2009-01-01' AND '2009-12-31';
-```
-
-
-10. Write a query that includes the purchased track name with each invoice line ID.
-```SQL
-SELECT t.Name as TrackName, i.InvoiceLineID
-FROM chinook.tracks t
-JOIN chinook.invoice_items i
-ON t.TrackId = i.TrackId;
-```
-
-11. Write a query that includes the purchased track name AND artist name with each invoice line ID.
+7. Write a query that includes the purchased track name AND artist name with each invoice line ID.
 ```SQL
 SELECT i.InvoiceLineID, t.Name as TrackName, a.Name as ArtistName
 FROM chinook.tracks t
@@ -106,8 +79,9 @@ JOIN chinook.artists a
 ON a.ArtistId = alb.ArtistId
 ORDER BY i.InvoiceLineID;
 ```
+![image](https://user-images.githubusercontent.com/123992539/227375816-3904cba2-a919-4c1a-85d8-d309e75ab710.png)
 
-12. Provide a query that shows all the Tracks, and include the Album name, Media type, and Genre.
+8. Provide a query that shows all the Tracks, and include the Album name, Media type, and Genre.
 ```SQL
 SELECT t.Name as TrackName, a.Title as AlbumTitle, m.Name as MediaType, g.Name as Genre
 FROM chinook.tracks t
@@ -118,9 +92,9 @@ ON m.MediaTypeId = t.MediaTypeId
 JOIN chinook.genres g
 ON t.GenreId = g.GenreId;
 ```
+![image](https://user-images.githubusercontent.com/123992539/227375928-eeefc19d-e430-485c-ba9d-169d58c361c6.png)
 
-
-13. Show the total sales made by each sales agent.
+9. Show the total sales made by each sales agent.
 ```SQL
 SELECT e.LastName, e.FirstName, sum(i.total) as TotalSales
 FROM chinook.employees e
@@ -131,8 +105,9 @@ ON i.customerID = c.customerID
 WHERE e. Title LIKE '%Sales%Agent%'
 GROUP BY e.LastName, e.FirstName;
 ```
+![image](https://user-images.githubusercontent.com/123992539/227375982-3eecd1ed-8332-4036-978c-c32186398eee.png)
 
-14. Which sales agent made the most dollars in sales in 2009?
+10. Which sales agent made the most dollars in sales in 2009?
 ```SQL
 SELECT e.LastName, e.FirstName, 
 SUM(CASE WHEN i.invoicedate BETWEEN '2009-01-01' AND '2009-12-31' THEN i.total END) as '2009_Sales'
@@ -146,3 +121,4 @@ GROUP BY e.LastName, e.FirstName
 ORDER BY 2009_sales
 LIMIT 1;
 ```
+![image](https://user-images.githubusercontent.com/123992539/227376103-df542061-3364-469e-91d5-da82a12f65c0.png)
