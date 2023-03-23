@@ -55,8 +55,8 @@ WHERE
     fiscal_year IN (2020, 2021);
 ```
 | percentage_chg | unique_products_2020 | unique_products_2021 |
-| :---: | :---: | :---: |
-| 59.7793 | 363523 | 608108 |
+| :---:          | :---:                | :---:                |
+| 59.7793        | 363523               | 608108               |
 
 Instead of creating two temporary tables calculating the unique product count for each year and then using a JOIn statement, I used CASE WHEN to simplify my query.
 
@@ -137,3 +137,14 @@ ORDER BY
 | A6120110206 | AQ HOME Allin1 Gen 2 | 240.5364 |
 
 6. Generate a report which contains the top 5 customers who received an average high pre_invoice_discount_pct for the fiscal year 2021 and in the Indian market.
+
+```SQL
+SELECT f.customer_code, d.customer, avg(f.pre_invoice_discount_pct) as average_discount_percentage
+FROM fact_pre_invoice_deductions f
+JOIN dim_customer d
+ON f.customer_code = d.customer_code
+WHERE f.fiscal_year = 2021 AND d.sub_zone = 'India'
+GROUP BY f.customer_code, d.customer
+ORDER BY average_discount_percentage DESC
+LIMIT 5;
+```
