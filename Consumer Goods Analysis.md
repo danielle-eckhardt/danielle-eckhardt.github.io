@@ -120,7 +120,8 @@ ORDER BY count(product_code) DESC;
     9
     <td>
     Networking
-    <tr>
+  </td> 
+  </tr>
 </table>
 
 4. Follow-up: Which segment had the most increase in unique products in 2021 vs 2020?
