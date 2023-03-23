@@ -1,3 +1,17 @@
+## Music Store Sales: An analysis using SQL
+
+### Project Description ### 
+In this case study, I am hired by a music store to provide insights on their employees peformance, customer characteristics, and more about their invoices.
+
+### Data Set ###
+This data set came from the [SQLite Sample Database](https://www.sqlitetutorial.net/sqlite-sample-database/#:~:text=The%20name%20of%20the%20file%20is%20chinook.db%20If,download%20a%20free%20zip%20software%20such%20as%207-zip.). This data was analyzed on **SQLiteStudio (3.4.3)**.
+
+### Data Structure ###
+Schema Diagram:
+![image](https://user-images.githubusercontent.com/123992539/227369420-81337f1b-b5c1-4735-8a61-9bf4e0abd4dc.png)
+
+
+### Insights ###
 1. Show Customers (their full names, customer ID, and country) who are not in the US. (Hint: != or <> can be used to say "is not equal to").
 ```SQL
 SELECT customerID, firstname, lastname, country
