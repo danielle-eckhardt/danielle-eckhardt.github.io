@@ -54,9 +54,8 @@ FROM
 WHERE 
     fiscal_year IN (2020, 2021);
 ```
-| percentage_chg | unique_products_2020 | unique_products_2021 |
-| :---:          | :---:                | :---:                |
-| 59.7793        | 363523               | 608108               |
+percentage_chg unique_products_2020 unique_products_2021 <br>
+59.7793     363523     608108    <br>
 
 Instead of creating two temporary tables calculating the unique product count for each year and then using a JOIn statement, I used CASE WHEN to simplify my query.
 
