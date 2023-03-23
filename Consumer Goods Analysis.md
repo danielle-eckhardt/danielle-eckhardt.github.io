@@ -31,8 +31,7 @@ SELECT DISTINCT market
 FROM dim_customer
 WHERE customer = "Atliq Exclusive" AND region = "APAC";
 ```
-![image](https://user-images.githubusercontent.com/123992539/227342232-876fd70e-eeba-4ac4-98a1-b658e82ac469.png)
-
+![image](https://user-images.githubusercontent.com/123992539/227342232-876fd70e-eeba-4ac4-98a1-b658e82ac469.png) <br>
 Since the market 'India' appears twice in the dataset, I used the 'DISTINCT' command to return all markets whose customer is "Atliq Exclusive" and operates its business in the APAC region.
 
 2. What is the percentage of unique product increase in 2021 vs. 2020?
@@ -47,26 +46,9 @@ FROM
 WHERE 
     fiscal_year IN (2020, 2021);
 ```
-<table>
-  <tr>
-    <th>percentage_chg</th>
-    <th>unique_products_2020</th>
-    <th>unique_products_2021</th>
-  </tr>
-  <tr>
-    <td>
-      59.7793 
-    </td>
-    <td>
-      363523
-    </td>
-    <td>
-     608108
-    </td> 
-  </tr>
-</table>
+![image](https://user-images.githubusercontent.com/123992539/227342694-136fd2c6-e58c-498e-8608-da2852c05070.png) <br>
+Instead of creating two temporary tables calculating the unique product count for each year and then using a JOIN statement, I used CASE WHEN to simplify my query.
 
-Instead of creating two temporary tables calculating the unique product count for each year and then using a JOIn statement, I used CASE WHEN to simplify my query.
 
 3. Provide a report with all the unique product counts for each segment and sort them in descending order of product counts.
 
@@ -76,46 +58,8 @@ FROM dim_product
 GROUP BY segment
 ORDER BY count(product_code) DESC;
 ```
+![image](https://user-images.githubusercontent.com/123992539/227343142-04eb53cb-3913-47d4-9eb8-81e9ae2cfd6d.png) <br>
 
-<table>
-  <tr>
-    <th>product</th>
-    <th>segment</th>
-  </tr>
-  <tr>
-    <td>
-    129   
-    <td>
-   Notebook
-  </tr>
-  <td>
-     116
-   <td>
-    Accessories
-   </tr>
-   <td>
-    84
-    <td>
-    Peripherals
-    </tr>
-    <td>
-    32
-    <td>
-    Desktop
-    </tr>
-    <td>
-    27
-    <td>
-    Storage
-    <td>
-    </tr>
-    <td>
-    9
-    <td>
-    Networking
-  </td> 
-  </tr>
-</table>
 
 4. Follow-up: Which segment had the most increase in unique products in 2021 vs 2020?
 
@@ -135,14 +79,8 @@ GROUP BY
 ORDER BY 
   difference;
 ```
-| segment | product_count_2020 | product_count_2021 | difference |
-| :---:   | :---: | :---:  | :---: |
-| Networking |	11216	| 16929	| 5713 |
-| Storage	| 22453	| 31977	| 9524 |
-| Desktop	| 2026 | 30734 | 28708 |
-| Peripherals	| 102878 | 141045 | 38167 |
-| Accessories	| 112763 | 193598 | 80835 |
-| Notebook	| 112187 | 193825 | 81638 |
+![image](https://user-images.githubusercontent.com/123992539/227343247-dae13bf1-d32b-44ee-9d74-f7d08825e336.png) <br>
+
 
 5. Get the products that have the highest and lowest manufacturing costs.
 
@@ -171,10 +109,8 @@ WHERE
 ORDER BY 
   f.manufacturing_cost;
 ```
-| product_code | product | manufacturing_cost |
-| :---:   | :---: | :---:  |
-| A2118150101 | AQ Master wired x1 Ms | 0.8920 |
-| A6120110206 | AQ HOME Allin1 Gen 2 | 240.5364 |
+![image](https://user-images.githubusercontent.com/123992539/227343383-c86a618b-1d5a-469d-985e-cdb43cf1153d.png)<br>
+
 
 6. Generate a report which contains the top 5 customers who received an average high pre_invoice_discount_pct for the fiscal year 2021 and in the Indian market.
 
@@ -188,3 +124,84 @@ GROUP BY f.customer_code, d.customer
 ORDER BY average_discount_percentage DESC
 LIMIT 5;
 ```
+![image](https://user-images.githubusercontent.com/123992539/227343503-368368bc-9fce-4877-96eb-87eee0642219.png) <br>
+
+7. Get the complete report of the Gross sales amount for the customer “Atliq Exclusive” for each month. This analysis helps to get an idea of low and high-performing months and take strategic decisions.
+
+```SQL
+SELECT extract(year from date) as year, extract(month from date) as month, sum(fgp.gross_price * fsm.sold_quantity) as GrossSalesAmount
+FROM fact_gross_price fgp
+JOIN fact_sales_monthly fsm
+ON fgp.product_code = fsm.product_code
+JOIN dim_customer dm
+ON dm.customer_code = fsm.customer_code
+WHERE dm.customer = 'Atliq Exclusive'
+GROUP BY year, month
+ORDER BY year, month;
+```
+![image](https://user-images.githubusercontent.com/123992539/227344870-a8ce45ce-c59b-41e2-ae6a-5e758f9bb7fd.png)<br>
+
+8. In which quarter of 2020, got the maximum total_sold_quantity?
+
+```SQL
+SELECT DISTINCT
+  quarter(date) AS Quarter,
+  SUM(sold_quantity) OVER (PARTITION BY quarter(date)) AS total_sold_quantity
+FROM fact_sales_monthly
+WHERE fiscal_year = 2020
+ORDER BY total_sold_quantity DESC
+LIMIT 1;
+```
+![image](https://user-images.githubusercontent.com/123992539/227345994-931a4baf-e4e7-4979-8e46-dc8da3f67192.png)<br>
+
+9. Which channel helped to bring more gross sales in the fiscal year 2021 and the percentage of contribution?
+
+```SQL
+SELECT 
+  d.channel, 
+  SUM(fgp.gross_price * fsm.sold_quantity) AS gross_sales_mln, 
+ (SUM(fgp.gross_price * fsm.sold_quantity) / SUM(SUM(fgp.gross_price * fsm.sold_quantity)) OVER ()) * 100 AS percentage
+FROM 
+  dim_customer d
+  JOIN fact_sales_monthly fsm ON d.customer_code = fsm.customer_code
+  JOIN fact_gross_price fgp ON fgp.product_code = fsm.product_code
+WHERE 
+  fsm.fiscal_year = 2021
+GROUP BY 
+  d.channel;
+```
+![image](https://user-images.githubusercontent.com/123992539/227347040-3e7d4e9d-f3e5-4395-8c2f-ba06286f7345.png)<br>
+
+10. Get the Top 3 products in each division that have a high total_sold_quantity in the fiscal_year 2021?
+
+```SQL
+SELECT 
+  division, 
+  product_code, 
+  product, 
+  total_sold_quantity, 
+  rank_no
+FROM (
+  SELECT 
+    d.division, 
+    d.product_code, 
+    d.product, 
+    SUM(fsm.sold_quantity) AS total_sold_quantity, 
+    RANK() OVER (PARTITION BY d.division ORDER BY SUM(fsm.sold_quantity) DESC) AS rank_no
+  FROM 
+    fact_sales_monthly fsm 
+    JOIN dim_product d ON fsm.product_code = d.product_code 
+  WHERE 
+    fsm.fiscal_year = 2021
+  GROUP BY 
+    d.division, 
+    d.product_code, 
+    d.product
+) AS t
+WHERE 
+  rank_no <= 3
+ORDER BY 
+  division, 
+  rank_no;
+```
+![image](https://user-images.githubusercontent.com/123992539/227348170-e2aed1fe-ad06-407d-a940-3f00981d5da7.png) <br>
