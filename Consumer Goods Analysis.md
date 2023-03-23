@@ -31,14 +31,7 @@ SELECT DISTINCT market
 FROM dim_customer
 WHERE customer = "Atliq Exclusive" AND region = "APAC";
 ```
-India,
-Indonesia,
-Japan,
-Philiphines,
-South Korea,
-Australia,
-Newzealand,
-Bangladesh
+![image](https://user-images.githubusercontent.com/123992539/227342232-876fd70e-eeba-4ac4-98a1-b658e82ac469.png)
 
 Since the market 'India' appears twice in the dataset, I used the 'DISTINCT' command to return all markets whose customer is "Atliq Exclusive" and operates its business in the APAC region.
 
