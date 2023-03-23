@@ -56,26 +56,22 @@ WHERE
 ```
 <table>
   <tr>
-    <th>var</th>
-    <th>let</th>
-    <th>const</th>
+    <th>percentage_chg</th>
+    <th>unique_products_2020</th>
+    <th>unique_products_2021</th>
   </tr>
   <tr>
     <td>
-      Declares a variable, optionally initializing it to a value.
+      59.7793 
     </td>
     <td>
-      Declares a block-scoped, local variable, optionally initializing it to a value.
+      363523
     </td>
     <td>
-      Declares a block-scoped, read-only named constant.
-    </td>
+     608108
+    </td> 
   </tr>
-  ...
 </table>
-
-percentage_chg unique_products_2020 unique_products_2021 <br>
-59.7793     363523     608108    <br>
 
 Instead of creating two temporary tables calculating the unique product count for each year and then using a JOIn statement, I used CASE WHEN to simplify my query.
 
@@ -87,14 +83,45 @@ FROM dim_product
 GROUP BY segment
 ORDER BY count(product_code) DESC;
 ```
-| product | segment |
-| :---:   | :---: |
-|129	| Notebook |
-|116	| Accessories |
-|84	| Peripherals |
-|32	| Desktop |
-|27	| Storage |
-|9	| Networking |
+
+<table>
+  <tr>
+    <th>product</th>
+    <th>segment</th>
+  </tr>
+  <tr>
+    <td>
+    129   
+    <td>
+   Notebook
+  </tr>
+  <td>
+     116
+   <td>
+    Accessories
+   </tr>
+   <td>
+    84
+    <td>
+    Peripherals
+    </tr>
+    <td>
+    32
+    <td>
+    Desktop
+    </tr>
+    <td>
+    27
+    <td>
+    Storage
+    <td>
+    </tr>
+    <td>
+    9
+    <td>
+    Networking
+    <tr>
+</table>
 
 4. Follow-up: Which segment had the most increase in unique products in 2021 vs 2020?
 
