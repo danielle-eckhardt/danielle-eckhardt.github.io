@@ -6,7 +6,7 @@ The focus is to understand employee dynamics and behavior to improve workplace p
 
 
 ### Data Set
-Data came from [Kaggle](https://www.kaggle.com/datasets/rhuebner/human-resources-data-set).
+Data came from [Kaggle](https://www.kaggle.com/datasets/rhuebner/human-resources-data-set). **Power Query** was used in the ETL cleaning process and **Power BI** was used in the data visualization process. Here is the full link to Power BI Dashboard:
 
 ### Data Structure
 There is only one dataset:
