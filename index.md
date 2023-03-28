@@ -10,9 +10,12 @@
 - [Consumer Goods Analysis](/Consumer Goods Analysis)
 - [Music Store Insights](/Music Store Analysis)
 
+---
+### R Projects
+- [Enter project here](/sample_page)
 
 ---
-### Tableau Projects
+### Power BI Projects
 
 [Project 1 Title](/sample_page)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
@@ -23,7 +26,7 @@
 
 ---
 
-### PowerBI Projects
+### Tableau Projects
 
 [Project 1 Title](/sample_page)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
