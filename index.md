@@ -21,8 +21,10 @@
 [Analyzing Employee Attendance Patterns: A Data-Driven Approach to Improve Workplace Productivity](/sample_page)
 
 ---
-[Project 3 Title](http://example.com/)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+
+<img src="images/Clothing_Store.png?raw=true"/>
+[Fashion Forward: Analyzing Product Sales Trends and Customer Behavior to Drive Business Growth](/sample_page)
+
 
 ---
 
