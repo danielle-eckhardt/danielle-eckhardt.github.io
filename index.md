@@ -17,7 +17,7 @@
 ---
 ### Power BI Projects
 
-[Human Resources](/sample_page)
+[Analyzing Employee Attendance Patterns: A Data-Driven Approach to Improve Workplace Productivity](/sample_page)
 <img src="images/HR_Attendance.png?raw=true"/>
 
 ---
