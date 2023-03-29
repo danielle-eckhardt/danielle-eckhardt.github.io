@@ -18,7 +18,7 @@
 ### Power BI Projects
 
 <img src="images/Employee_Attendance.png?raw=true"/> <br>
-[Analyzing Employee Attendance Patterns: A Data-Driven Approach to Improve Workplace Productivity](/sample_page)
+[Analyzing Employee Attendance Patterns: A Data-Driven Approach to Improve Workplace Productivity](/HR_Stats)
 
 ---
 
