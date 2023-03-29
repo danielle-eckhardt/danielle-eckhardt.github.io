@@ -1,4 +1,4 @@
-## Human Resources Presence Insights: An analysis using Power BI
+## HExploring Employee Demographics and Turnover Rates: An analysis using Power BI
 
 ### Project Description
 In this case study, I hired to analyze employee information (a simulated dataset) from the human resources department. 
