@@ -18,7 +18,7 @@
 ### Power BI Projects
 
 <img src="images/HR.png?raw=true"/> <br>
-[Exploring Employee Demographics and Turnover Rates](/HR_Power BI)
+[A Deep Dive into Employee Data: Understanding Your Workforce](/HR_Power BI)
 
 ---
 
