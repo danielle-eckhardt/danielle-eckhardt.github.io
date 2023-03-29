@@ -17,7 +17,7 @@
 ---
 ### Power BI Projects
 
-<img src="images/Employee_Attendance.png?raw=true"/> <br>
+<img src="images/HR.png?raw=true"/> <br>
 [Exploring Employee Demographics and Turnover Rates](/HR_Power BI)
 
 ---
