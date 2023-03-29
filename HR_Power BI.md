@@ -1,8 +1,10 @@
-## HExploring Employee Demographics and Turnover Rates: An analysis using Power BI
+## Exploring Employee Demographics and Turnover Rates: An analysis using Power BI
 
 ### Project Description
-In this case study, I hired to analyze employee information (a simulated dataset) from the human resources department. 
-The focus is to understand employee dynamics and behavior to improve workplace productivity.
+In this case study, I have been hired to analyze employee information from the human resources department in order to better understand employee dynamics and behavior. By leveraging the data provided in the simulated dataset, I was be able to identify trends and patterns that can help improve workplace productivity. This includes examining employee demographics, such as age and gender, as well as factors such as employee performance and reasons for leaving the company. 
+
+
+
 
 
 ### Data Set
@@ -29,7 +31,12 @@ HRDataset_v14 <br>
 
 
 ### Insights
-[Link to dashboard](https://app.powerbi.com/groups/me/dashboards/01e136a3-3df3-4c30-95c4-7cd8e170107b?ctid=34cbfaf1-67a6-4781-a9ca-514eb2550b66&pbi_source=linkShare)
+[Link to full interactive dashboard](https://app.powerbi.com/groups/me/dashboards/01e136a3-3df3-4c30-95c4-7cd8e170107b?ctid=34cbfaf1-67a6-4781-a9ca-514eb2550b66&pbi_source=linkShare)
+
+![image](https://user-images.githubusercontent.com/123992539/228666797-19bb5abc-371c-48a5-9281-270e1a187904.png)
+
 
 ### Conclusion
+
+With this information in hand, you will be able to make informed recommendations that can help optimize operations and improve overall workplace productivity. Whether it's identifying areas where additional training may be needed, or streamlining processes to reduce turnover rates, your analysis will provide valuable insights that can drive positive change within the organization.
 
