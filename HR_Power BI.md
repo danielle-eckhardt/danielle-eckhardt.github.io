@@ -29,7 +29,7 @@ HRDataset_v14 <br>
 
 
 ### Insights
-Link to dashboard: https://app.powerbi.com/links/d3rJjz02qL?ctid=34cbfaf1-67a6-4781-a9ca-514eb2550b66&pbi_source=linkShare
+[Link to dashboard](https://app.powerbi.com/groups/me/dashboards/01e136a3-3df3-4c30-95c4-7cd8e170107b?ctid=34cbfaf1-67a6-4781-a9ca-514eb2550b66&pbi_source=linkShare)
 
 ### Conclusion
 
