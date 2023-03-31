@@ -31,19 +31,19 @@ HRDataset_v14 <br>
 As part of our ongoing efforts to evaluate and improve our team's performance, we have analyzed our key performance indicators (KPI). Our current average satisfaction rating stands at 3.89 out of 5, and the average engagement survey rating is 4.11 out of 5. While these scores meet the minimum expectations, we recognize the need to identify any underlying factors that may be contributing to these sub-optimal ratings.
 
 ![image](https://user-images.githubusercontent.com/123992539/229158599-f86369cd-85a0-49f0-a7da-00707ccee45d.png) <br>
-The largest ethnic group among the current employees of this company is White, comprising 59.9% of the workforce, followed by Black or African American employees who make up 24.64% of the total staff. 
+The largest ethnic group among the current employees of this company is White, comprising 59.9% of the workforce, followed by Black or African American employees who make up 24.64% of the total staff. These demographic statistics indicate that if diversity is an important part of our company culture and mission, we should strive to improve our hiring practices to attract and hire individuals from a broader range of ethnic backgrounds.
 
 ![image](https://user-images.githubusercontent.com/123992539/229168261-a19a1f4d-6b85-4591-84cd-b9153ae39e48.png) <br>
 Although there are more female employees than males at this workplace, the overall gender balance remains fairly equitable.
 
 ![image](https://user-images.githubusercontent.com/123992539/229160007-7624e64d-db3c-4fa1-8b5f-5ae8b2e153ca.png) <br>
-The recruitment sources that yielded the most success were Indeed (28.06%) and LinkedIn (24.19%), while the company website proved to be the least effective method for recruiting.
+The recruitment sources that yielded the most success were Indeed (28.06%) and LinkedIn (24.19%), while the company website proved to be the least effective method for recruiting. With this knowledge of which recruitment methods are less effective, we can brainstorm and troubleshoot ways to improve them, or explore alternative methods to increase the pool of potential candidates.
 
 ![image](https://user-images.githubusercontent.com/123992539/229158701-23aa02f9-f875-4a54-8cc2-087f05d1b8d9.png) <br>
 A majority of the active employees (78% or 162 out of 207) have a 'Fully Meets' performance, which is an excellent outcome. Interestingly, the second-highest group of employees with a 'Fully Meets' performance is made up of those who voluntarily terminated their positions in the company. This presents an opportunity to investigate the reasons behind their departure more closely. It also serves as a good starting point to analyze the reasons for employee terminations.
 
 ![image](https://user-images.githubusercontent.com/123992539/229159504-a8be2b0e-267c-4fb8-a288-177732309060.png)<br>
-The primary reason for employee termination was due to obtaining another position, closely followed by reasons such as being unhappy with their current role and seeking higher pay. Interestingly, the production department had the highest turnover rate among all departments.
+The primary reason for employee termination was due to obtaining another position, closely followed by reasons such as being unhappy with their current role and seeking higher pay. Interestingly, the production department had the highest turnover rate among all departments. By pinpointing the production department as having the highest turnover rate, we can initiate a review of its operations and identify ways to reduce turnover.
 
 ![image](https://user-images.githubusercontent.com/123992539/229161662-2eb6633c-d38c-4125-9166-99aff75395ab.png) <br>
 At this company, the average salary for female employees is slightly lower than that of their male counterparts. The overall average salary for all employees is approximately $69K. Given that the primary reasons for employee turnover are related to compensation and moving to other companies, this information can be used to reassess the budget and potentially adjust salaries to improve employee retention.
