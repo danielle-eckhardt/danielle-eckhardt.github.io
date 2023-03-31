@@ -22,8 +22,7 @@ HRDataset_v14 <br>
 - What is the turnover rate of employees in each department?
 
 ### Dashboard
-[Link to full interactive dashboard]<br>
-(https://app.powerbi.com/groups/me/dashboards/01e136a3-3df3-4c30-95c4-7cd8e170107b?ctid=34cbfaf1-67a6-4781-a9ca-514eb2550b66&pbi_source=linkShare)
+[Link to full interactive dashboard](https://app.powerbi.com/groups/me/dashboards/01e136a3-3df3-4c30-95c4-7cd8e170107b?ctid=34cbfaf1-67a6-4781-a9ca-514eb2550b66&pbi_source=linkShare)
 
 ![image](https://user-images.githubusercontent.com/123992539/228666797-19bb5abc-371c-48a5-9281-270e1a187904.png)
 
@@ -58,8 +57,7 @@ The geographic distribution of the company's employees shows that the majority r
 
 #### Filters
 ![image](https://user-images.githubusercontent.com/123992539/229162355-b03b1da7-6455-45a3-9a92-52ead8f0bed2.png) <br>
-With these slicers we can take a look at the individual department statistics like the average salary, recruitment source, termination reasons, and more. We can also take a look at an individual employees ratings including the performance score, satisfaction rating, age, and engagement survey.
-
+By using these slicers, we can easily examine department-specific statistics, such as average salary, recruitment sources, and reasons for termination, among others. Additionally, we can gain insights into individual employee ratings, including performance scores, satisfaction levels, age, and engagement survey results.
 
 
 ### Conclusion & Recommendations
