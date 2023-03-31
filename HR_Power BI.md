@@ -63,7 +63,7 @@ By using these slicers, we can easily examine department-specific statistics, su
 ### Conclusion & Recommendations
 With this information in hand, this project allowed me to make informed recommendations that can help optimize operations and improve overall workplace productivity. Whether it's identifying areas where additional training may be needed, or streamlining processes to reduce turnover rates, this analysis provides valuable insights that can drive positive change within the organization. <br>
 <br>
-Recommendations
+#### Recommendations
 1. Conduct an internal review of the production department to identify potential areas for improvement and address the high turnover rate in this area.
 2. Revisit the company's salary structure and ensure that there are no disparities based on gender to promote a fair and equitable work environment.
 3. Explore additional recruitment sources beyond Indeed and LinkedIn to broaden the pool of potential candidates and increase diversity in the workforce.
