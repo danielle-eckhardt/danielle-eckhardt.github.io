@@ -10,9 +10,6 @@
 - [Consumer Goods Analysis](/Consumer Goods Analysis)
 - [Music Store Insights](/Music Store Analysis)
 
----
-### R Projects
-- [Enter project here](/sample_page)
 
 ---
 ### Power BI Projects
@@ -21,18 +18,3 @@
 [A Deep Dive into Employee Data: Understanding Your Workforce](/HR_Power BI)
 
 ---
-
-<img src="images/Clothing_Store.png?raw=true"/>
-[Fashion Forward: Analyzing Product Sales Trends and Customer Behavior to Drive Business Growth](/sample_page)
-
-
----
-
-### Tableau Projects
-
-[Project 1 Title](/sample_page)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-
----
-[Project 3 Title](http://example.com/)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
