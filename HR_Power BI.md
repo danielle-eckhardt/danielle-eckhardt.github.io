@@ -31,18 +31,34 @@ HRDataset_v14 <br>
 
 
 ### Dashboard
-[Link to full interactive dashboard](https://app.powerbi.com/groups/me/dashboards/01e136a3-3df3-4c30-95c4-7cd8e170107b?ctid=34cbfaf1-67a6-4781-a9ca-514eb2550b66&pbi_source=linkShare)
+[Link to full interactive dashboard]<br>
+(https://app.powerbi.com/groups/me/dashboards/01e136a3-3df3-4c30-95c4-7cd8e170107b?ctid=34cbfaf1-67a6-4781-a9ca-514eb2550b66&pbi_source=linkShare)
 
 ![image](https://user-images.githubusercontent.com/123992539/228666797-19bb5abc-371c-48a5-9281-270e1a187904.png)
 
 ### Insights
-![image](https://user-images.githubusercontent.com/123992539/228668071-75507f34-8bc7-4dbd-9d9d-7740d0efd61a.png) <br>
+![image](https://user-images.githubusercontent.com/123992539/229158599-f86369cd-85a0-49f0-a7da-00707ccee45d.png) <br>
 The majority of people that work at this company are White (59.9%) with Black or African American (24.64%) following second. 
 
-![image](https://user-images.githubusercontent.com/123992539/228668803-cdc4e640-b7be-4181-a727-32d33abc0cbc.png)
+![image](https://user-images.githubusercontent.com/123992539/229158701-23aa02f9-f875-4a54-8cc2-087f05d1b8d9.png) <br>
 The performance of the current employees (Active) is majority 'Fully Meets' with 162 out of the 207 current employees. This is great! That is 78% of staff currently working at this company. It is interesting to see that the second highest group of individuals that have a 'Fully Meets' performance is the ones that voluntarily terminated their positions within the company. This is a great indicator to look deeper into why these people left their positions. This is a good segway to look into the termination reasons.
 
-![image](https://user-images.githubusercontent.com/123992539/228670764-9f9ff48a-9f8c-4242-97f0-428f4132dcfa.png)
+![image](https://user-images.githubusercontent.com/123992539/229159504-a8be2b0e-267c-4fb8-a288-177732309060.png)<br>
+
+
+![image](https://user-images.githubusercontent.com/123992539/229159762-4ea2e248-7199-4411-a1b0-9e634af7eaf0.png)<br>
+
+![image](https://user-images.githubusercontent.com/123992539/229160007-7624e64d-db3c-4fa1-8b5f-5ae8b2e153ca.png) <br>
+
+![image](https://user-images.githubusercontent.com/123992539/229160278-b47946dc-2c99-49aa-85c9-91139449d9b8.png) <br>
+
+![image](https://user-images.githubusercontent.com/123992539/229160730-fd2ae982-7caa-4a5e-aecc-3b9e3ecc70c3.png) <br>
+
+![image](https://user-images.githubusercontent.com/123992539/229161662-2eb6633c-d38c-4125-9166-99aff75395ab.png) <br>
+
+![image](https://user-images.githubusercontent.com/123992539/229162059-a6879cc8-b7aa-4b62-9e1d-88844ba263a4.png) <br>
+
+![image](https://user-images.githubusercontent.com/123992539/229162355-b03b1da7-6455-45a3-9a92-52ead8f0bed2.png) <br>
 
 
 
