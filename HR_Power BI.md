@@ -5,7 +5,7 @@ In this case study, I have been hired to analyze employee information from the h
 
 
 ### Data Set
-Data came from [Kaggle](https://www.kaggle.com/datasets/rhuebner/human-resources-data-set). **Power Query** was used in the ETL cleaning process and **Power BI** was used in the data visualization process. Here is the full link to Power BI Dashboard:
+Data came from [Kaggle](https://www.kaggle.com/datasets/rhuebner/human-resources-data-set). **Power Query** was used in the ETL cleaning process and **Power BI** was used in the data visualization process. 
 
 ### Data Structure
 There is only one dataset:
