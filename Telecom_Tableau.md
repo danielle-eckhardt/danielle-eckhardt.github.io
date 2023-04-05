@@ -12,7 +12,7 @@ It includes demographic information, geographic location, details about services
 This dataset came from [Maven Analytics](https://www.mavenanalytics.io/data-playground?dataStructure=2lXwWbWANQgI727tVx3DRC) and **Tableau** was used for analysis and visualizations. 
 
 ### Data Structure
-1. How many customers joined the company during the last quarter? How many customers joined?
+1. How many customers joined the company? 
 2. What is the customer profile for a customer that churned, joined, and stayed? Are they different?
 3. What seem to be the key drivers of customer churn?
 4. Is the company losing high value customers? If so, how can they retain them?
