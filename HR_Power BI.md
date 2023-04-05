@@ -82,7 +82,7 @@ The geographic distribution of the company's employees shows that the majority r
 By using these slicers, we can easily examine department-specific statistics, such as average salary, recruitment sources, and reasons for termination, among others. Additionally, we can gain insights into individual employee ratings, including performance scores, satisfaction levels, age, and engagement survey results.
 
 
-### Conclusion & Recommendations
+### Conclusion
 With this information in hand, this project allowed me to make informed recommendations that can help optimize operations and improve overall workplace productivity. Whether it's identifying areas where additional training may be needed, or streamlining processes to reduce turnover rates, this analysis provides valuable insights that can drive positive change within the organization. <br>
 <br>
 
