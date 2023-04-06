@@ -12,6 +12,9 @@ It includes demographic information, geographic location, details about services
 This dataset came from [Maven Analytics](https://www.mavenanalytics.io/data-playground?dataStructure=2lXwWbWANQgI727tVx3DRC) and **Tableau** was used for analysis and visualizations. 
 
 ### Data Structure
+
+
+### Key Questions
 1. How many customers joined the company? 
 2. What is the customer profile for a customer that churned, joined, and stayed? Are they different?
 3. What seem to be the key drivers of customer churn?
@@ -20,13 +23,7 @@ This dataset came from [Maven Analytics](https://www.mavenanalytics.io/data-play
 6. What are the most common reasons for customer churn, and which factors have the strongest influence on churn behavior?
 7. Are there any patterns or trends in the service usage behavior of customers who are more likely to churn, and how can these insights be used to inform targeted retention strategies?
 8. What is the lifetime value of a customer for the telecommunications company, and how does this vary across different customer segments?
-9. Can we predict which customers are most likely to churn, and if so, what factors are the strongest predictors of churn behavior?
 10. What are the key drivers of customer satisfaction, and how can the telecommunications company optimize their business strategies to improve overall satisfaction and reduce churn rates?
-11. How does the telecommunications company compare to its competitors in terms of customer churn, and what steps can be taken to maintain a competitive edge in the market?
-12. Are there any seasonal or temporal patterns in customer churn behavior, and how can these insights be used to inform retention strategies and promotional campaigns?
-
-### Key Questions
-
 
 ## Insight Summary
 
@@ -35,6 +32,8 @@ This dataset came from [Maven Analytics](https://www.mavenanalytics.io/data-play
 
 
 ### Dashboard
+[Link to Full Dashboard](https://public.tableau.com/app/profile/danielle.marshall2373/viz/TelecommunicationsChurnAnalysis/Dashboard1?publish=yes)
+![Dashboard](https://user-images.githubusercontent.com/123992539/230477934-cb7ff77a-54fd-4c91-b087-984d0e898bfb.png)
 
 
 ### Full Insight Breakdown
