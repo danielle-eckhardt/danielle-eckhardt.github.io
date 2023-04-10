@@ -1,6 +1,7 @@
-## Welcome To My Data Portfolio
+# Welcome To My Data Portfolio
 
 ### Master's Thesis Project (An analysis using SAS)
+<img src="images/3.png?raw=true"/> <br>
 [Nitrogen and Phosphorus Budgets in Estuaries of the Texas Coast](/MS_Thesis)
 
 ---
