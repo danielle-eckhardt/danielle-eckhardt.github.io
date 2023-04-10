@@ -1,10 +1,7 @@
 ## Unlocking Insights into Customer Behavior and Service Utilization for a Telecommunications Company in California ##
 
 ### Project Description
-In this project, I have been hired to analyze customer data for a fictional telecommunications company that provides phone and internet services. 
-The objective of the analysis is to gain insights into customer behavior and identify strategies for increasing customer retention and driving revenue growth. 
-By leveraging statistical techniques and machine learning algorithms to explore customer demographics, service usage, and churn behavior, we aim to identify the key factors that influence customer churn and develop data-driven solutions for reducing churn rates and improving customer satisfaction. 
-Ultimately, the results of this analysis will enable the company to optimize their business strategies and achieve sustained revenue growth in a competitive market.
+I'm analyzing customer data for a fictional telecom company to understand customer behavior and find ways to keep them happy and increase revenue. By using statistics and machine learning, we're looking at customer demographics, service usage, and why customers leave. Our goal is to identify key factors that lead to customer churn and use this information to create solutions that reduce churn rates and improve customer satisfaction. This analysis will help the company make better business decisions and increase their revenue in a competitive market.
 
 ### Data Set
 This dataset contains information on customer churn of 7,043 individuals located in California. 
@@ -27,10 +24,34 @@ There are two datasets, telecom_customer_churn and telecom_zipcode_population. T
 5. What are the key drivers of customer satisfaction, and how can the telecommunications company optimize their business strategies to improve overall satisfaction and reduce churn rates? 
 
 ## Insight Summary
-
+- Total revenue for the latest quarter was $21.37 million dollars.
+- Average monthly charge is about $65 to the customer depending on services and add-ons.
+- Total customer refunds are at about $14,000.
+- Average customer total charges by quarter is about $2,000.
+- Gender distribution is pretty evenly split between male and female customers, and between married and unmarried customers.
+- Southern California on the coast, including San Diego and Los Angeles, has the most customers and revenue, followed by the Bay Area including Sacramento and San Jose.
+- Average age of clients is around 47 years old, with the youngest customer age being 19 and the oldest customer being 80 years old.
+- Average customer tenure is 32 months.
+- Average number of dependents for clients is less than 1, indicating that most clients are single individual households.
+- About 69% of customers use both internet and phone services, while about 10% use just internet and about 22% use just phone services.
+- The top 10 cities with the most revenue are Los Angeles, San Diego, Sacramento, and San Jose.
+- Churn rate is about 30%, with the biggest reason for churning being competition with better devices and offers.
+- Internet service has the lowest usage, with about 50-65% of customers not using additional services.
+- Phone service has more than half of customers without multiple lines, and the average monthly long distance charge is about $25.
+- Most customers use paperless billing, and the most common payment method is bank withdrawals, but about 40% of customers still pay with credit card.
+- Overall, there is room for improvement in customer retention and revenue generation through marketing efforts promoting bundle deals, additional service add-ons, and payment method promotions. The company could also focus on improving internet service usage and creating more phone plans with long distance features.
 
 ## Recommendations
-
+1. Develop and promote bundling deals to encourage more customers to use both internet and phone services.
+2. Investigate why internet service usage is low and determine if there are ways to incentivize customers to use additional services like online security, online backup, and premium tech support.
+3. Create new internet plans with higher or lower usage limits to better cater to customer needs.
+4. Offer more phone plans with long distance features for customers who frequently call overseas.
+5. Consider promotions or incentives to encourage customers to switch from credit card payments to bank withdrawals, which could save the company money on fees.
+6. Improve the network reliability and overall product satisfaction to reduce customer churn rate and keep more customers.
+7. Focus on attracting more families to use the services, as most current customers are single individuals.
+8. Aim for a customer retention rate of 80% for the next quarter.
+9. Increase the percentage of customers using additional service add-ons to around 50%.
+10. Improve marketing efforts to increase revenue in areas where competition is strong, such as Los Angeles, San Diego, Sacramento, and San Jose.
 
 ### Dashboard
 [Link to Full Interactive Dashboard](https://public.tableau.com/app/profile/danielle.marshall2373/viz/TelecommunicationsChurnAnalysis/Dashboard1?publish=yes)
@@ -38,35 +59,34 @@ There are two datasets, telecom_customer_churn and telecom_zipcode_population. T
 
 ### Full Insight Breakdown
 ![image](https://user-images.githubusercontent.com/123992539/230932118-9adfce91-2b22-47b9-ae13-262bd6d91dc9.png)<br>
-Right off the bat, we can see that the total revenue for the latest quarter was $21.37 million dollars.
+Upon initial review, it is evident that the total revenue generated in the most recent quarter amounted to $21.37 million dollars.
 
 ![image](https://user-images.githubusercontent.com/123992539/230931863-b270631d-472f-4e22-9024-48bd41482203.png)<br>
-The average monthly charge is about $65 to the customer depending on services and add ons. The total customer refunds are at about $14,000. This is something that we can strive to lower. Lastly, the average customer total charges by quarter is about $2,000. 
+The average monthly fee assessed to customers, which varies based on the specific services and add-ons they select, amounts to approximately $65. Meanwhile, the total value of customer refunds stands at approximately $14,000, representing an area of potential improvement. Additionally, the average quarterly charges per customer amount to roughly $2,000.
 
 ![image](https://user-images.githubusercontent.com/123992539/230932158-fc149245-c461-49a3-862d-30a01919d882.png)<br>
-Getting more of an understanding for the customer demographics and behavior we see that the gender is split pretty evenly between male and females and between customers who are married versus unmarried. The looking at the map we can see the distribution of our clients and the revenue and total population of that area (tooltip). There seems to be more customers in southern california on the coast including San Diego and Los Angeles corresponded by their larger bubbles. Then we see the second largest amount of our customers come from the bay area including Sacramento and San Jose. <br>
-
-The average age of our clients are around 47 years old and can see the the youngest customer age being 19 and the oldest customer being 80 years old through the tooltip. The average number of dependents for our clients is less than 1. This tells me that most of our clients are a single individual household rather than a family. If we pivot and try to attract more families then maybe they will use more of our services including streaming various multimedia and pay for both services (internet and phone) rather than just one of them. That is a good segway into seeing what percentage of our customers use both services, only internet, and only phone.
+Based on the analysis of customer demographics, there is an equal distribution between genders and marital status. The geographic concentration of clients and revenue is primarily in Southern California, specifically in cities like San Diego and Los Angeles, followed by the Bay Area in cities like Sacramento and San Jose. The average age of customers is around 47, with a range from 19 to 80 years old. The majority of customers are single individuals with less than one dependent, suggesting an opportunity to target families to increase revenue. The analysis of service usage shows the percentage of customers using phone and internet services, exclusively internet, and exclusively phone. However, the average monthly tenure is 32 months.
 
 ![image](https://user-images.githubusercontent.com/123992539/230932237-4602d1bb-3931-490f-bee8-892c4014fed7.png)<br>
-Here we can see that about 69% of our customers use both services versus only about 10% using just internet and about 22% using just phone services. This information is valuable because now we know that we need to improve our marketing inclduding any deals that promote bundling both internet and phone services to increase our revenue for the next quarter. The internet service has the lowest usage so it would be good to examine what might be causing them to go to other providers.
+The data indicates that 69% of our customers use both phone and internet services, while 10% use only internet and 22% use only phone services. This knowledge is valuable in driving marketing efforts towards promoting bundled services to increase revenue in the upcoming quarter. As internet service has the lowest usage, investigating potential factors that are causing customers to switch to other providers may be worthwhile.
 
 ![image](https://user-images.githubusercontent.com/123992539/230932196-2bd12285-5b97-4811-9c4c-ed6ef8eb0df4.png)<br>
-As you can see the top 10 cities with the most revenue are Los Angeles, San Diego, Sacramento, San Jose, etc that also aligns with our map.
+The data reveals that the cities generating the highest revenue are Los Angeles, San Diego, Sacramento, San Jose, and others, which aligns with the geographical distribution shown on our map.
 
 ![image](https://user-images.githubusercontent.com/123992539/230932272-b4597184-d09e-4311-9e34-28d40497eb4d.png)<br>
-Now looking at the churn rate we can see that about 72% of the customers stayed which is great! But there are still about 30% of the customers that we lost. There is always room for improving these rates and maybe have a target of 80% customers stayed in the next quarter.
+Upon analyzing churn rates, we observed that approximately 72% of customers remained with our services, which is positive. However, there remains a churn rate of approximately 30%, indicating a potential area for improvement. Setting a goal of an 80% customer retention rate for the upcoming quarter would be beneficial in increasing our overall retention rate.
 
 ![Capture](https://user-images.githubusercontent.com/123992539/230933183-374bc459-6e0e-4038-8462-0a9d90466a6d.PNG)<br>
-Now we can see that the biggest reason for churning was due to a competitor and if we hover over it with our tooltip we can see that the main reason is that the competition had better devices and they made a better offer. The second cateorgy that was the reason why customers left was dissatisfaction primarily due to product dissatisfaction and network reliability. Now we know what areas we need to focus on as a company to improve our customer retention and lower our competition.
+Our analysis of customer churn identified that the primary reason for churn was attributed to competition, with a key factor being the offer of better devices and better offers. The second most common reason for churn was customer dissatisfaction, primarily related to product quality and network reliability.
 
 ![image](https://user-images.githubusercontent.com/123992539/230931744-751bccec-8fbe-4201-8a82-e027840d37b3.png)<br>
-Now taking a look at our internet services usage, there seems to be more non-usage than usage across the board at around 50 to 65% of the total customers. This is an area we want to improve, if we increase the amount of customers using the additional services incluidng online security, online backup, premium tech support, etc then we can definitely increase our revenue. Maybe our goal for the next quarter can be that we want the percentage of customers using these extra service add-ons to be closer to 50% versus where it sits today around 35-50% of the customers. The average monthly GB download is about 26 GB, with this information we can possibly put out a new internet plan with higher or lower usage limits to customer needs better.
+Our analysis of internet services usage revealed that the majority of customers are not utilizing additional services such as online security, online backup, and premium tech support, with non-usage ranging from 50 to 65% of total customers. Increasing usage of these services presents an opportunity for revenue growth. As a goal for the upcoming quarter, we aim to increase the percentage of customers utilizing these add-ons to 50%. The average monthly GB download is approximately 26 GB, indicating a potential opportunity to offer tailored internet plans with higher or lower usage limits based on customer needs.
 
 ![image](https://user-images.githubusercontent.com/123992539/230931954-1307c2c8-1226-4c6a-9125-444b692d1921.png)<br>
+Upon analyzing the phone services, it is apparent that more than 50% of our customers have a single line, which is consistent with our customer demographics analysis indicating that most customers are single individuals. The average monthly charge for long distance services is $25, which may discourage customers from utilizing this feature. To improve customer satisfaction and potentially increase revenue, we could explore the creation of additional phone plans with more attractive long distance options for customers who frequently make overseas calls.
 
 ![image](https://user-images.githubusercontent.com/123992539/230932039-71ba0523-692f-48a5-8445-3e2d283ade7b.png)<br>
-
+After analyzing the data, it is evident that the majority of customers prefer paperless billing and use bank withdrawals as the primary payment method. However, credit card payment still accounts for around 40% of the customer payment methods, which can result in additional fees for the company. To reduce these fees, we can introduce promotional offers to incentivize customers to switch to bank withdrawals, such as offering a discount on the first bill.
 
 
 ### Conclusion
