@@ -90,3 +90,4 @@ After analyzing the data, it is evident that the majority of customers prefer pa
 
 
 ### Conclusion
+Based on the analysis and recommendations, it seems that the company can benefit from focusing on improving customer retention, expanding service usage, targeting families, and promoting bank withdrawals. By taking these actions, the company can potentially increase revenue and improve customer satisfaction. Overall, this project highlights the importance of using data-driven insights to inform business decisions and drive positive change.
