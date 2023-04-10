@@ -4,17 +4,19 @@
 [Nitrogen and Phosphorus Budgets in Estuaries of the Texas Coast](/MS_Thesis)
 
 ---
-
 ### SQL Projects
 
 - [Consumer Goods Analysis](/Consumer Goods Analysis)
 - [Music Store Insights](/Music Store Analysis)
 
+---
+### Tableau Projects
+<img src="images/2.png?raw=true"/> <br>
+[Unlocking Insights into Customer Behavior and Service Utilization for a Telecommunications Company in California](/Telecom_Tableau)
 
 ---
 ### Power BI Projects
 
-<img src="images/HR.png?raw=true"/> <br>
+<img src="images/1.png?raw=true"/> <br>
 [A Deep Dive into Employee Data: Understanding Your Workforce](/HR_Power BI)
 
----
